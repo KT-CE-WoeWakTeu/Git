@@ -33,4 +33,11 @@ public class DomainObject {
 		this.comment = comment; 
 	}
 
+	public String getName() { 
+		return name; 
+	} 
+
+	public void setName(String pname) { 
+		this.name = pname; 
+	}
 }
