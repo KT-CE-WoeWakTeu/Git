@@ -1,7 +1,8 @@
 package at.jku.ce;
 
 public class DomainObject {
- 
+
+	private String id;
 	private String name;	
 
 	/** * Default constructor */
