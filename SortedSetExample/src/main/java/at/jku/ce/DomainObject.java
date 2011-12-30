@@ -2,6 +2,8 @@ package at.jku.ce;
 
 public class DomainObject {
 
+	private String name;	
+
 	public DomainObject() {
 		super();
 	}
