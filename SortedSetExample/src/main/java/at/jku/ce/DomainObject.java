@@ -6,4 +6,9 @@ public class DomainObject {
 		super();
 	}
 
+	public DomainObject(String id) { 
+		super(); 
+		this.id = id; 
+	}
+
 }
