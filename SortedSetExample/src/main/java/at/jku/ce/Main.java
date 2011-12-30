@@ -11,6 +11,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Set<DomainObject> objectSet = new TreeSet<DomainObject>(new DomainObjectComparator());	
+
 		
 		objectSet.add(DomainFactory.createDomainObject("Helga","Ein Kommentar"));
 		objectSet.add(DomainFactory.createDomainObject("Walter","Ein Kommentar"));
