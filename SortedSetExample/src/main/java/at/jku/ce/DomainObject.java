@@ -4,6 +4,8 @@ public class DomainObject {
 
 	private String name;	
 
+	/** * Default constructor */
+	
 	public DomainObject() {
 		super();
 	}
